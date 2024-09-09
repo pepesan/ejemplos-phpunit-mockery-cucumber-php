@@ -1,0 +1,25 @@
+{
+    "name": "root/html",
+    "type": "project",
+    "scripts": {
+        "test": "phpunit",
+        "cucumber": "behat"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3",
+        "mockery/mockery": "^1.6",
+        "behat/behat": "^3.14",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Root\\Html\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pepesan",
+            "email": "pepesan@gmail.com"
+        }
+    ]
+}
